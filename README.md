@@ -40,7 +40,7 @@ Bonus: wyraź pozostałe funkcje przy użyciu `foldList`
 Zaimplementuj funkcję 
 
 ```haskell
-isGraphClosed :: Eq a => a -> (a -> List a) -> (a -> Bool) -> Bool
+isGraphClosed :: Eq a => a -> (a -> [a]) -> (a -> Bool) -> Bool
 isGraphClosed initial neighbours isOk = ...
 ```
 gdzie parametry mają następujące znaczenie:
@@ -54,7 +54,7 @@ Należy pamiętać, ze graf może mieć cykle.
 
 Napisz funkcję
 ```haskell
-reachable :: Eq a => a -> a -> (a -> List a) -> Bool
+reachable :: Eq a => a -> a -> (a -> [a]) -> Bool
 reachable v initial neighbours = ...
 ```
 
@@ -62,7 +62,7 @@ dającą `True` wtw gdy wierzchołek `v` jest osiągalny z wierzchołka `initial
 
 Napisz funkcję
 ```haskell
-allReachable :: Eq a => [a] -> a -> (a -> List a) -> Bool
+allReachable :: Eq a => [a] -> a -> (a -> [a]) -> Bool
 reachable vs initial neighbours = ...
 ```
 
