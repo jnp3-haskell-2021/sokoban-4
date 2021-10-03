@@ -1,7 +1,5 @@
 # Zadanie: Sokoban 4
 
-Termin: 18.11.2017 06:00 UTC+1
-
 ## Etap 0
 
 Stwórz kilka poziomów. Mozna pomóc sobie http://sokobano.de/wiki
