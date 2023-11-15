@@ -31,7 +31,10 @@ andList :: [Bool] -> Bool
 allList :: (a-> Bool) -> [a] -> Bool
 foldList :: (a -> b -> b) -> b -> [a] -> b
 ```
-Bonus: wyraź pozostałe funkcje przy użyciu `foldList`
+Bonus: wyraź pozostałe funkcje przy użyciu `foldList` (NB `foldList` można naturalnie zdefiniować na dwa sposoby. Jeżeli Twoja definicja wymaga odwracania list do zrealizowania innych funkcji, spróbuj zdefiniować `foldList` inaczej). 
+
+**Uwaga:** powyższe funkcje mają oczywiście swoje odpowiedniki w `Prelude`. Tym niemniej proszę zrealizować je samodzielnie. "Sprytne" definicje typu `andList = and` nie będą mile widziane.
+
 
 ## Etap 2 - wyszukiwanie w grafie
 
